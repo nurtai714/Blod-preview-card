@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog preview card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main itemscope itemtype="https://schema.org/BlogPosting">
+      <img
+        itemprop="image"
+        src="./assets/images/illustration-article.svg"
+        alt="abstract illustration with shapes"
+        width="336"
+        height="200"
+      />
+
+      <span>Learning</span>
+
+      <time datetime="2023-12-21T00:00:00.000Z" itemprop="datePublished">
+        Published 21 Dec 2023
+      </time>
+
+      <h1 itemprop="name">
+        <a href="#" itemprop="url">HTML & CSS foundations</a>
+      </h1>
+
+      <p itemprop="abstract">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+
+      <figure itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <img
+          itemprop="image"
+          src="./assets/images/image-avatar.webp"
+          alt="avatar of greg hooper"
+          width="32"
+          height="32"
+        />
+        <figcaption itemprop="name">Greg Hooper</figcaption>
+      </figure>
+    </main>
+  </body>
+</html>
